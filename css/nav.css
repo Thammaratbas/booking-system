@@ -1,0 +1,13 @@
+body {
+    background: url('../images/OrangeBG.jpg') rgba(199, 97, 2, 0.3);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 991px) {
+    .sidebar {
+        background-color: rgba(199, 97, 2, 0.15);
+    }
+}
