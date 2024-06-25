@@ -1,0 +1,21 @@
+/* Styles for the chat icon */
+.chat-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 9999; /* Ensure it's above other content */
+}
+
+/* Styles for the chat box */
+.chat-box {
+    display: none; /* Hide chat box by default */
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    width: 300px; /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 9998; /* Ensure it's above other content */
+}

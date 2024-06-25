@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&family=Kalam:wght@700&family=Kanit:wght@300&family=Mooli&family=Rubik:wght@300&family=Varela+Round&family=Work+Sans:wght@300&display=swap');
+
+body {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Kalam', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #d85527;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(152, 15, 7, 1), rgba(227, 128, 71, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(152, 15, 7, 1), rgba(227, 128, 71, 1))
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 40px;
+}
+
+.card {
+    background-color: rgb(240,240,240);
+    color: white;
+}
+
+.card-body {
+    text-align: left;
+}
+
+.btn {
+    font-size: 30px;
+}
+.btn-secondary {
+    background-color: #333;
+}
+
+.form {
+    text-align: left;
+    align-items: center;
+}
+
+label {
+    color: #333;
+    font-size: 30px;
+}
+
+.btn-dark {
+    color: wheat;
+}
+
+h3 {
+    margin-top: 50px;
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+}

@@ -1,13 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&family=Kalam:wght@700&family=Kanit:wght@300&family=Mooli&family=Rubik:wght@300&family=Varela+Round&family=Work+Sans:wght@300&display=swap');
+
 body {
-    background: url('../images/OrangeBG.jpg') rgba(199, 97, 2, 0.3);
-    background-blend-mode: multiply;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Kalam', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.navbar {
+    background-color: #f57b39;
 }
 
-@media (max-width: 991px) {
-    .sidebar {
-        background-color: rgba(199, 97, 2, 0.15);
-    }
+.navbar-brand {
+    color: white;
+}
+
+.offcanvas{
+    background-color: #f57b39;
+    color: white;
+}
+
+.nav-link {
+    color: white;
 }
